@@ -199,6 +199,24 @@ def sha1_of(path: str) -> str:
     return h.hexdigest()
 
 
+def write_meta_if_changed(path: str, meta: dict) -> bool:
+    """generated 를 제외한 내용이 기존과 같으면 쓰지 않는다(sha1/ETag/git diff 안정화).
+    변경되어 파일을 썼으면 True."""
+    if os.path.isfile(path):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                old = json.load(f)
+            old.pop("generated", None)
+            if old == {k: v for k, v in meta.items() if k != "generated"}:
+                return False
+        except (OSError, ValueError):
+            pass  # 깨진 파일 → 새로 씀
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(meta, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    return True
+
+
 def needs_encode(src: str, dst: str, force: bool) -> bool:
     if force or not os.path.exists(dst) or os.path.getsize(dst) == 0:
         return True
@@ -331,9 +349,10 @@ def build_song(song: str, label_path: str, source_root: str, out_root: str,
         "stems": stem_entries,
     }
     meta_path = os.path.join(song_dir, f"{song}.meta.json")
-    with open(meta_path, "w", encoding="utf-8") as f:
-        json.dump(meta, f, ensure_ascii=False, indent=2)
-        f.write("\n")
+    if write_meta_if_changed(meta_path, meta):
+        log("  ✏️  meta.json 갱신")
+    else:
+        log("  ⏭️  meta.json 변경 없음 (generated 유지)")
 
     total = master_entry["sizeBytes"] + sum(s["sizeBytes"] for s in stem_entries)
     log(f"  📝 {os.path.relpath(meta_path, out_root)}  (합계 {total / 1_000_000:.1f}MB)")

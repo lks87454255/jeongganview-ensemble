@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generated": "2026-09-30T11:54:05Z",
+  "owner": "lks87454255",
+  "repo": "jeongganview-ensemble",
+  "branch": "main",
+  "songCount": 1,
+  "categories": [
+    {
+      "name": "정악/풍류음악",
+      "songs": [
+        {
+          "id": "0010_정악_풍류음악",
+          "title": "현악영산회상(중광지곡) 상령산 2장",
+          "performers": "국립국악원",
+          "genreMajor": "정악",
+          "genreSub": "풍류음악",
+          "genreDetail": "영산회상, 도드리",
+          "tempoBpm": 100,
+          "durationMs": 146400,
+          "stemCount": 8,
+          "instruments": [
+            "가야금",
+            "거문고",
+            "단소",
+            "대금",
+            "양금",
+            "장구",
+            "피리",
+            "해금"
+          ],
+          "totalBytes": 20311161,
+          "metaUrl": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0010_%EC%A0%95%EC%95%85_%ED%92%8D%EB%A5%98%EC%9D%8C%EC%95%85/0010_%EC%A0%95%EC%95%85_%ED%92%8D%EB%A5%98%EC%9D%8C%EC%95%85.meta.json",
+          "metaSha1": "a6808da27002c99cb10dca18b0c1bade3e2fba6c"
+        }
+      ]
+    }
+  ]
+}
