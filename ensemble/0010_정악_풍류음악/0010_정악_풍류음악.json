@@ -1,0 +1,111 @@
+{
+  "project_name": "0010_정악_풍류음악",
+  "master": {
+    "file_name": "0010_정악_풍류음악.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "정악",
+      "genreSub": "풍류음악",
+      "genreDetail": "영산회상, 도드리",
+      "title": "현악영산회상(중광지곡) 상령산 2장",
+      "tempoBpm": 100,
+      "timeSignature": "60/8",
+      "recordDate": "2025-08-07",
+      "moods": [
+        {
+          "mood": "기품 있는",
+          "count": 2
+        },
+        {
+          "mood": "단아한",
+          "count": 4
+        },
+        {
+          "mood": "명상적인",
+          "count": 2
+        },
+        {
+          "mood": "쓸쓸한",
+          "count": 2
+        },
+        {
+          "mood": "아정한",
+          "count": 2
+        },
+        {
+          "mood": "여유로운",
+          "count": 2
+        },
+        {
+          "mood": "절제된",
+          "count": 3
+        },
+        {
+          "mood": "편안한",
+          "count": 2
+        }
+      ],
+      "western_key": "Db / Bbm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0010_정악_풍류음악_가야금.wav",
+      "tags": {
+        "instrumentMajor": "가야금",
+        "instrumentSub": "가야금"
+      }
+    },
+    {
+      "file_name": "0010_정악_풍류음악_거문고.wav",
+      "tags": {
+        "instrumentMajor": "거문고",
+        "instrumentSub": "거문고"
+      }
+    },
+    {
+      "file_name": "0010_정악_풍류음악_단소.wav",
+      "tags": {
+        "instrumentMajor": "기타",
+        "instrumentSub": "단소"
+      }
+    },
+    {
+      "file_name": "0010_정악_풍류음악_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0010_정악_풍류음악_양금.wav",
+      "tags": {
+        "instrumentMajor": "양금",
+        "instrumentSub": "양금"
+      }
+    },
+    {
+      "file_name": "0010_정악_풍류음악_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    },
+    {
+      "file_name": "0010_정악_풍류음악_피리.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리"
+      }
+    },
+    {
+      "file_name": "0010_정악_풍류음악_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    }
+  ]
+}

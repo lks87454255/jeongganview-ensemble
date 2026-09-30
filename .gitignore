@@ -1,0 +1,5 @@
+.DS_Store
+**/.DS_Store
+*.wav
+*.tmp.m4a
+__pycache__/
