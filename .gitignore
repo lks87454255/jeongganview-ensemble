@@ -3,3 +3,4 @@
 *.wav
 *.tmp.m4a
 __pycache__/
+!instruments/**/*.wav
