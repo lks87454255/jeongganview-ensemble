@@ -62,6 +62,7 @@ MIN_CORE_SEC = 0.45  # 안정 구간 최소 길이
 MAX_SAMPLE_SEC = 2.5
 ATTACK_PAD_SEC = 0.02
 XFADE_SEC = 0.04
+VERIFY_TOL_CENT = 10  # 결과 재측정 허용 오차
 NAMES = ["C", "C#", "D", "Eb", "E", "F", "F#", "G", "Ab", "A", "Bb", "B"]
 
 
@@ -186,7 +187,22 @@ def make_sample(x, s, sustain):
     a = max(0, s["seg_start"] * HOP - int(ATTACK_PAD_SEC * OUT_SR))
     core_s = s["core_start"] * HOP + WIN // 2
     core_e = s["core_end"] * HOP + WIN // 2
-    b = min(len(x), core_e, a + int(MAX_SAMPLE_SEC * OUT_SR * ratio))
+    if sustain:
+        b = min(len(x), core_e, a + int(MAX_SAMPLE_SEC * OUT_SR * ratio))
+    else:
+        # 발현악기: 안정 구간 뒤 자연 감쇠까지 포함. 다음 음 어택(10ms 에너지 +6dB 상승) 또는 -40dB 에서 자름
+        hard = min(len(x), a + int(MAX_SAMPLE_SEC * OUT_SR * ratio))
+        w10 = int(0.01 * OUT_SR)
+        seg = x[core_e:hard]
+        k = len(seg) // w10
+        b = hard
+        if k > 2:
+            e = 10 * np.log10((seg[:k * w10].reshape(k, w10) ** 2).mean(1) + 1e-12)
+            peak_db = 10 * np.log10(np.mean(x[core_s:core_e] ** 2) + 1e-12)
+            for i2 in range(1, k):
+                if e[i2] - e[i2 - 1] > 6 or e[i2] < peak_db - 40:
+                    b = core_e + i2 * w10
+                    break
     raw = x[a:b]
     y = resample(raw, max(8, int(round(len(raw) / ratio))))  # 길이 1/ratio → 음높이 ×ratio
     cs = int((core_s - a) / ratio)
@@ -245,7 +261,7 @@ def make_sample(x, s, sustain):
         y = y[:loop_end]
         loop = (int(loop_start), int(loop_end), float(best_c))
     else:
-        fo = min(len(y), int(0.03 * OUT_SR))
+        fo = min(len(y), int(0.06 * OUT_SR))
         y[-fo:] *= np.linspace(1, 0, fo)
     return y, loop
 
@@ -329,6 +345,10 @@ def main():
         f0v, _ = yin_track(np.concatenate([y, np.zeros(WIN * 2)]), OUT_SR, cfg["fmin"], cfg["fmax"])
         fv = f0v[np.isfinite(f0v)]
         err = float(np.median(hz_midi(fv) * 100 - midi * 100)) if len(fv) else float("nan")
+        if not np.isfinite(err) or abs(err) > VERIFY_TOL_CENT:
+            print(f"   ⛔ {note_name(midi)}: 제외 (재측정 {err:+.1f}c — 옥타브 오검출/불안정 의심)")
+            os.remove(path)
+            continue
         entry = {
             "midi": midi, "note": note_name(midi), "fileName": fname,
             "url": raw_url("instruments", args.inst, fname),
@@ -346,6 +366,16 @@ def main():
         if args.preview:
             write_wav(os.path.join(args.preview, f"{args.inst}_{note_name(midi)}.wav"), render_preview(y, loop))
 
+    # 다른 샘플과 한 옥타브 넘게 떨어진 외톨이 음 제외 (옥타브 오검출 의심)
+    kept = []
+    for e in samples:
+        others = [o["midi"] for o in samples if o is not e]
+        if others and min(abs(e["midi"] - m) for m in others) > 12:
+            print(f"   ⛔ {e['note']}: 제외 (다른 음과 {min(abs(e['midi'] - m) for m in others)}반음 떨어진 외톨이)")
+            os.remove(os.path.join(out_dir, e["fileName"]))
+            continue
+        kept.append(e)
+    samples = kept
     pack = {
         "version": PACK_VERSION, "key": args.inst, "name": cfg["name"], "sustain": cfg["sustain"],
         "sampleRate": OUT_SR, "referenceA4": 440.0, "channels": 1,
