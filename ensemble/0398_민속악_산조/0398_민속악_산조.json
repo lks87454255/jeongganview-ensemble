@@ -1,0 +1,58 @@
+{
+  "project_name": "0398_민속악_산조",
+  "_source": "메타데이터.csv",
+  "master": {
+    "file_name": "0398_민속악_산조.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "민속악",
+      "genreSub": "산조",
+      "genreDetail": "해금 산조",
+      "title": "지영희류 해금 산조 중 굿거리 3",
+      "tempoBpm": 240,
+      "timeSignature": "12/8",
+      "recordDate": "2025-08-26",
+      "moods": [
+        {
+          "mood": "다이내믹한",
+          "count": 2
+        },
+        {
+          "mood": "단아한",
+          "count": 2
+        },
+        {
+          "mood": "리듬감 있는",
+          "count": 2
+        },
+        {
+          "mood": "유려한",
+          "count": 2
+        },
+        {
+          "mood": "표현적인",
+          "count": 3
+        }
+      ],
+      "western_key": "Eb / Cm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0398_민속악_산조_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    },
+    {
+      "file_name": "0398_민속악_산조_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    }
+  ]
+}

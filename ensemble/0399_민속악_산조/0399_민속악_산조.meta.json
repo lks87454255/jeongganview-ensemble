@@ -1,0 +1,79 @@
+{
+  "version": 2,
+  "generated": "2026-10-09T12:59:05Z",
+  "id": "0399_민속악_산조",
+  "title": "지영희류 해금 산조 중 자진모리",
+  "work": "지영희류 해금 산조",
+  "movement": "자진모리",
+  "performers": "국립국악원",
+  "genreMajor": "민속악",
+  "genreSub": "산조",
+  "genreDetail": "해금 산조",
+  "tempoBpm": 260,
+  "timeSignature": "12/8",
+  "jangdan": "자진모리",
+  "jangdanInferred": false,
+  "cycleMs": 2769,
+  "mode": "solo",
+  "leadKey": "haegeum",
+  "fragment": false,
+  "westernKey": "Eb / Cm",
+  "recordDate": "2025-08-26",
+  "moods": [
+    "다이내믹한",
+    "도취된",
+    "리듬감 있는",
+    "차분한",
+    "표현적인"
+  ],
+  "sampleRate": 48000,
+  "sourceSampleRate": 48000,
+  "channels": 2,
+  "durationMs": 183000,
+  "codec": "aac",
+  "bitrateKbps": 128,
+  "labelUrl": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0399_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0/0399_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0.json",
+  "quality": {
+    "fitted": true,
+    "unitResidualDb": -6.3,
+    "mixResidualDb": -21.6,
+    "maxStemCorr": 0.0,
+    "silentStems": 0
+  },
+  "master": {
+    "fileName": "0399_민속악_산조.m4a",
+    "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0399_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0/0399_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0.m4a",
+    "sizeBytes": 2917173,
+    "sha1": "4ce0da87d2bf2a055bfca8cf71734391a0c5eefb"
+  },
+  "stems": [
+    {
+      "key": "janggu",
+      "name": "장구",
+      "baseName": "장구",
+      "group": "타악",
+      "instrumentMajor": "타악기",
+      "sourceFileName": "0399_민속악_산조_장구.wav",
+      "fileName": "0399_민속악_산조_장구.m4a",
+      "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0399_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0/stems/0399_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0_%EC%9E%A5%EA%B5%AC.m4a",
+      "sizeBytes": 2479741,
+      "sha1": "c6cbf2961ebbe8606cf15a2ac5054aacdce5c394",
+      "defaultGain": 0.362,
+      "pan": 0.0
+    },
+    {
+      "key": "haegeum",
+      "name": "해금",
+      "baseName": "해금",
+      "group": "현악",
+      "instrumentMajor": "해금",
+      "sourceFileName": "0399_민속악_산조_해금.wav",
+      "fileName": "0399_민속악_산조_해금.m4a",
+      "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0399_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0/stems/0399_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0_%ED%95%B4%EA%B8%88.m4a",
+      "sizeBytes": 2907748,
+      "sha1": "1049c60b05d8ac2363b495b6a1f047bf65501109",
+      "defaultGain": 1.0,
+      "pan": 0.0
+    }
+  ]
+}

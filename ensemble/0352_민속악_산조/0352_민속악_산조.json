@@ -1,0 +1,54 @@
+{
+  "project_name": "0352_민속악_산조",
+  "_source": "메타데이터.csv",
+  "master": {
+    "file_name": "0352_민속악_산조.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "민속악",
+      "genreSub": "산조",
+      "genreDetail": "피리 산조",
+      "title": "박범훈류 피리 산조 중 진양조 4",
+      "tempoBpm": 100,
+      "timeSignature": "18/8",
+      "recordDate": "2025-08-26",
+      "moods": [
+        {
+          "mood": "절제된",
+          "count": 2
+        },
+        {
+          "mood": "진지한",
+          "count": 2
+        },
+        {
+          "mood": "표현적인",
+          "count": 2
+        },
+        {
+          "mood": "품위 있는",
+          "count": 2
+        }
+      ],
+      "western_key": "Bb / Gm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0352_민속악_산조_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    },
+    {
+      "file_name": "0352_민속악_산조_피리.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리"
+      }
+    }
+  ]
+}

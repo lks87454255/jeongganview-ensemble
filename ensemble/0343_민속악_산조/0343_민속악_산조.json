@@ -1,0 +1,54 @@
+{
+  "project_name": "0343_민속악_산조",
+  "_source": "메타데이터.csv",
+  "master": {
+    "file_name": "0343_민속악_산조.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "민속악",
+      "genreSub": "산조",
+      "genreDetail": "아쟁 산조",
+      "title": "박종선류 아쟁 산조 중 진양조 2",
+      "tempoBpm": 80,
+      "timeSignature": "18/8",
+      "recordDate": "2025-08-09",
+      "moods": [
+        {
+          "mood": "기품 있는",
+          "count": 2
+        },
+        {
+          "mood": "긴장된",
+          "count": 2
+        },
+        {
+          "mood": "진지한",
+          "count": 4
+        },
+        {
+          "mood": "표현적인",
+          "count": 2
+        }
+      ],
+      "western_key": "Eb / Cm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0343_민속악_산조_아쟁.wav",
+      "tags": {
+        "instrumentMajor": "아쟁",
+        "instrumentSub": "아쟁"
+      }
+    },
+    {
+      "file_name": "0343_민속악_산조_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    }
+  ]
+}
