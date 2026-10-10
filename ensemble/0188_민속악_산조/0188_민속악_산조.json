@@ -1,0 +1,53 @@
+{
+  "project_name": "0188_민속악_산조",
+  "master": {
+    "file_name": "0188_민속악_산조.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "민속악",
+      "genreSub": "산조",
+      "genreDetail": "가야금 산조",
+      "title": "성금연류 가야금 산조 중 진양조 15",
+      "tempoBpm": 80,
+      "timeSignature": "18/8",
+      "recordDate": "2025-08-26",
+      "moods": [
+        {
+          "mood": "유려한",
+          "count": 2
+        },
+        {
+          "mood": "잔잔한",
+          "count": 2
+        },
+        {
+          "mood": "절제된",
+          "count": 2
+        },
+        {
+          "mood": "차분한",
+          "count": 3
+        }
+      ],
+      "western_key": "Bb / Gm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0188_민속악_산조_가야금.wav",
+      "tags": {
+        "instrumentMajor": "가야금",
+        "instrumentSub": "가야금"
+      }
+    },
+    {
+      "file_name": "0188_민속악_산조_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    }
+  ]
+}

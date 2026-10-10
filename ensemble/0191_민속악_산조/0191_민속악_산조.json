@@ -1,0 +1,65 @@
+{
+  "project_name": "0191_민속악_산조",
+  "master": {
+    "file_name": "0191_민속악_산조.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "민속악",
+      "genreSub": "산조",
+      "genreDetail": "가야금 산조",
+      "title": "성금연류 가야금 산조 중 중모리 3",
+      "tempoBpm": 60,
+      "timeSignature": "12/4",
+      "recordDate": "2025-08-26",
+      "moods": [
+        {
+          "mood": "기품 있는",
+          "count": 2
+        },
+        {
+          "mood": "사색적인",
+          "count": 3
+        },
+        {
+          "mood": "아정한",
+          "count": 2
+        },
+        {
+          "mood": "절제된",
+          "count": 2
+        },
+        {
+          "mood": "차분한",
+          "count": 3
+        },
+        {
+          "mood": "표현적인",
+          "count": 2
+        },
+        {
+          "mood": "향토적인",
+          "count": 2
+        }
+      ],
+      "western_key": "Bb / Gm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0191_민속악_산조_가야금.wav",
+      "tags": {
+        "instrumentMajor": "가야금",
+        "instrumentSub": "가야금"
+      }
+    },
+    {
+      "file_name": "0191_민속악_산조_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    }
+  ]
+}
