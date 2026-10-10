@@ -1,0 +1,92 @@
+{
+  "project_name": "0057_정악_풍류음악",
+  "master": {
+    "file_name": "0057_정악_풍류음악.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "정악",
+      "genreSub": "풍류음악",
+      "genreDetail": "영산회상, 도드리",
+      "title": "관악영산회상(삼현영산회상,표정만방지곡) 중 타령 1장~2장",
+      "tempoBpm": 140,
+      "timeSignature": "12/8",
+      "recordDate": "2025-08-07",
+      "moods": [
+        {
+          "mood": "그리운",
+          "count": 2
+        },
+        {
+          "mood": "시적인",
+          "count": 2
+        },
+        {
+          "mood": "에너지 넘치는",
+          "count": 2
+        },
+        {
+          "mood": "의례적인",
+          "count": 2
+        },
+        {
+          "mood": "장엄한",
+          "count": 2
+        }
+      ],
+      "western_key": "Gb / Ebm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0057_정악_풍류음악_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0057_정악_풍류음악_소금.wav",
+      "tags": {
+        "instrumentMajor": "기타",
+        "instrumentSub": "소금"
+      }
+    },
+    {
+      "file_name": "0057_정악_풍류음악_아쟁.wav",
+      "tags": {
+        "instrumentMajor": "아쟁",
+        "instrumentSub": "아쟁"
+      }
+    },
+    {
+      "file_name": "0057_정악_풍류음악_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    },
+    {
+      "file_name": "0057_정악_풍류음악_좌고.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "좌고"
+      }
+    },
+    {
+      "file_name": "0057_정악_풍류음악_피리.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리"
+      }
+    },
+    {
+      "file_name": "0057_정악_풍류음악_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    }
+  ]
+}
