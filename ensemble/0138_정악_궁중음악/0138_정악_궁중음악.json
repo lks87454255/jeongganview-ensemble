@@ -1,0 +1,90 @@
+{
+  "project_name": "0138_정악_궁중음악",
+  "master": {
+    "file_name": "0138_정악_궁중음악.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "정악",
+      "genreSub": "궁중음악",
+      "genreDetail": "회례악,연례악",
+      "title": "길군악",
+      "tempoBpm": 140,
+      "timeSignature": "24/8",
+      "recordDate": "2025-08-05",
+      "moods": [
+        {
+          "mood": "기품 있는",
+          "count": 3
+        },
+        {
+          "mood": "엄숙한",
+          "count": 2
+        },
+        {
+          "mood": "웅대한",
+          "count": 2
+        },
+        {
+          "mood": "의례적인",
+          "count": 2
+        },
+        {
+          "mood": "장엄한",
+          "count": 2
+        },
+        {
+          "mood": "절제된",
+          "count": 2
+        },
+        {
+          "mood": "품위 있는",
+          "count": 3
+        },
+        {
+          "mood": "희망적인",
+          "count": 2
+        }
+      ],
+      "western_key": "Eb / Cm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0138_정악_궁중음악_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0138_정악_궁중음악_아쟁.wav",
+      "tags": {
+        "instrumentMajor": "아쟁",
+        "instrumentSub": "아쟁"
+      }
+    },
+    {
+      "file_name": "0138_정악_궁중음악_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    },
+    {
+      "file_name": "0138_정악_궁중음악_피리.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리"
+      }
+    },
+    {
+      "file_name": "0138_정악_궁중음악_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    }
+  ]
+}
