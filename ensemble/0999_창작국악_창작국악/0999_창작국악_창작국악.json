@@ -1,0 +1,65 @@
+{
+  "project_name": "0999_창작국악_창작국악",
+  "master": {
+    "file_name": "0999_창작국악_창작국악.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "창작국악",
+      "genreSub": "창작국악",
+      "genreDetail": "창작국악",
+      "title": "타령",
+      "tempoBpm": 90,
+      "timeSignature": "3/4",
+      "recordDate": "2025-09-28",
+      "moods": [
+        {
+          "mood": "명상적인",
+          "count": 3
+        },
+        {
+          "mood": "사색적인",
+          "count": 3
+        },
+        {
+          "mood": "아정한",
+          "count": 2
+        },
+        {
+          "mood": "엄숙한",
+          "count": 2
+        },
+        {
+          "mood": "절제된",
+          "count": 2
+        },
+        {
+          "mood": "진지한",
+          "count": 2
+        },
+        {
+          "mood": "차분한",
+          "count": 4
+        }
+      ],
+      "western_key": "Eb / Cm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0999_창작국악_창작국악_거문고.wav",
+      "tags": {
+        "instrumentMajor": "거문고",
+        "instrumentSub": "거문고"
+      }
+    },
+    {
+      "file_name": "0999_창작국악_창작국악_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    }
+  ]
+}
