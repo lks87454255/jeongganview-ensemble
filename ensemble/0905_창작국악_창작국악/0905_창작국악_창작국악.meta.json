@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "generated": "2026-10-09T20:49:45Z",
+  "id": "0905_창작국악_창작국악",
+  "title": "활의노래 1",
+  "work": "활의노래",
+  "movement": "1",
+  "performers": "국립국악원",
+  "genreMajor": "창작국악",
+  "genreSub": "창작국악",
+  "genreDetail": "창작국악",
+  "tempoBpm": 80,
+  "timeSignature": "4/4",
+  "jangdan": null,
+  "jangdanInferred": false,
+  "cycleMs": 3000,
+  "mode": "ensemble",
+  "leadKey": null,
+  "fragment": false,
+  "westernKey": "Ab / Fm",
+  "recordDate": "2025-09-21",
+  "moods": [
+    "아정한",
+    "절제된"
+  ],
+  "sampleRate": 48000,
+  "sourceSampleRate": 48000,
+  "channels": 2,
+  "durationMs": 315000,
+  "codec": "aac",
+  "bitrateKbps": 128,
+  "labelUrl": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0905_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/0905_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85.json",
+  "quality": {
+    "fitted": false,
+    "unitResidualDb": -235.5,
+    "mixResidualDb": -235.5,
+    "maxStemCorr": 0.0,
+    "silentStems": 0
+  },
+  "master": {
+    "fileName": "0905_창작국악_창작국악.m4a",
+    "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0905_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/0905_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85.m4a",
+    "sizeBytes": 4860276,
+    "sha1": "56aae42d48e5958d8f2e3713bcc3342393d83351"
+  },
+  "stems": [
+    {
+      "key": "haegeum",
+      "name": "해금",
+      "baseName": "해금",
+      "group": "현악",
+      "instrumentMajor": "해금",
+      "sourceFileName": "0905_창작국악_창작국악_해금.wav",
+      "fileName": "0905_창작국악_창작국악_해금.m4a",
+      "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0905_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/stems/0905_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%ED%95%B4%EA%B8%88.m4a",
+      "sizeBytes": 4860276,
+      "sha1": "59264cb9705c5e12f11237280cfb1e6bc83be7fc",
+      "defaultGain": 1.0,
+      "pan": 0.0
+    }
+  ]
+}
