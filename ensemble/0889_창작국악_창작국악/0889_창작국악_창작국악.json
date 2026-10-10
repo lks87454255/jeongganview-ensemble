@@ -1,0 +1,178 @@
+{
+  "project_name": "0889_창작국악_창작국악",
+  "_source": "메타데이터.csv",
+  "master": {
+    "file_name": "0889_창작국악_창작국악.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "창작국악",
+      "genreSub": "창작국악",
+      "genreDetail": "창작국악",
+      "title": "거문고협주곡 향류 6",
+      "tempoBpm": 420,
+      "timeSignature": "12/8",
+      "recordDate": "2025-09-16",
+      "moods": [
+        {
+          "mood": "경쾌한",
+          "count": 4
+        },
+        {
+          "mood": "귀여운",
+          "count": 2
+        },
+        {
+          "mood": "다이내믹한",
+          "count": 2
+        },
+        {
+          "mood": "리듬감 있는",
+          "count": 4
+        },
+        {
+          "mood": "명랑한",
+          "count": 3
+        },
+        {
+          "mood": "생기 있는",
+          "count": 3
+        },
+        {
+          "mood": "신나는",
+          "count": 2
+        },
+        {
+          "mood": "신명난",
+          "count": 3
+        },
+        {
+          "mood": "유쾌한",
+          "count": 2
+        },
+        {
+          "mood": "즐거운",
+          "count": 3
+        },
+        {
+          "mood": "축제적인",
+          "count": 2
+        },
+        {
+          "mood": "해학적인",
+          "count": 2
+        },
+        {
+          "mood": "행복한",
+          "count": 2
+        },
+        {
+          "mood": "활기찬",
+          "count": 2
+        }
+      ],
+      "western_key": "C / Am"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0889_창작국악_창작국악_가야금.wav",
+      "tags": {
+        "instrumentMajor": "가야금",
+        "instrumentSub": "가야금"
+      }
+    },
+    {
+      "file_name": "0889_창작국악_창작국악_가야금2.wav",
+      "tags": {
+        "instrumentMajor": "가야금",
+        "instrumentSub": "가야금2"
+      }
+    },
+    {
+      "file_name": "0889_창작국악_창작국악_거문고2.wav",
+      "tags": {
+        "instrumentMajor": "거문고",
+        "instrumentSub": "거문고2"
+      }
+    },
+    {
+      "file_name": "0889_창작국악_창작국악_꽹과리.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "꽹과리"
+      }
+    },
+    {
+      "file_name": "0889_창작국악_창작국악_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0889_창작국악_창작국악_생황.wav",
+      "tags": {
+        "instrumentMajor": "기타",
+        "instrumentSub": "생황"
+      }
+    },
+    {
+      "file_name": "0889_창작국악_창작국악_소금.wav",
+      "tags": {
+        "instrumentMajor": "기타",
+        "instrumentSub": "소금"
+      }
+    },
+    {
+      "file_name": "0889_창작국악_창작국악_아쟁.wav",
+      "tags": {
+        "instrumentMajor": "아쟁",
+        "instrumentSub": "아쟁"
+      }
+    },
+    {
+      "file_name": "0889_창작국악_창작국악_아쟁2.wav",
+      "tags": {
+        "instrumentMajor": "아쟁",
+        "instrumentSub": "아쟁2"
+      }
+    },
+    {
+      "file_name": "0889_창작국악_창작국악_양금.wav",
+      "tags": {
+        "instrumentMajor": "양금",
+        "instrumentSub": "양금"
+      }
+    },
+    {
+      "file_name": "0889_창작국악_창작국악_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    },
+    {
+      "file_name": "0889_창작국악_창작국악_태평소.wav",
+      "tags": {
+        "instrumentMajor": "기타",
+        "instrumentSub": "태평소"
+      }
+    },
+    {
+      "file_name": "0889_창작국악_창작국악_피리.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리"
+      }
+    },
+    {
+      "file_name": "0889_창작국악_창작국악_해금2.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금2"
+      }
+    }
+  ]
+}

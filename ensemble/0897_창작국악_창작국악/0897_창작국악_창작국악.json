@@ -1,0 +1,165 @@
+{
+  "project_name": "0897_창작국악_창작국악",
+  "_source": "메타데이터.csv",
+  "master": {
+    "file_name": "0897_창작국악_창작국악.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "창작국악",
+      "genreSub": "창작국악",
+      "genreDetail": "창작국악",
+      "title": "바람과 나무와 땅의 시 1",
+      "tempoBpm": 140,
+      "timeSignature": "10/8",
+      "recordDate": "2025-09-16",
+      "moods": [
+        {
+          "mood": "다정한",
+          "count": 2
+        },
+        {
+          "mood": "따뜻한",
+          "count": 2
+        },
+        {
+          "mood": "마음을 울리는",
+          "count": 2
+        },
+        {
+          "mood": "유려한",
+          "count": 2
+        },
+        {
+          "mood": "조화로운",
+          "count": 2
+        },
+        {
+          "mood": "평온한",
+          "count": 2
+        },
+        {
+          "mood": "평화로운",
+          "count": 2
+        },
+        {
+          "mood": "희망적인",
+          "count": 3
+        },
+        {
+          "mood": "희망찬",
+          "count": 2
+        }
+      ],
+      "western_key": "E / Dbm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0897_창작국악_창작국악_가야금.wav",
+      "tags": {
+        "instrumentMajor": "가야금",
+        "instrumentSub": "가야금"
+      }
+    },
+    {
+      "file_name": "0897_창작국악_창작국악_가야금2.wav",
+      "tags": {
+        "instrumentMajor": "가야금",
+        "instrumentSub": "가야금2"
+      }
+    },
+    {
+      "file_name": "0897_창작국악_창작국악_거문고.wav",
+      "tags": {
+        "instrumentMajor": "거문고",
+        "instrumentSub": "거문고"
+      }
+    },
+    {
+      "file_name": "0897_창작국악_창작국악_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0897_창작국악_창작국악_대금2.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금2"
+      }
+    },
+    {
+      "file_name": "0897_창작국악_창작국악_바라.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "바라"
+      }
+    },
+    {
+      "file_name": "0897_창작국악_창작국악_방울.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "방울"
+      }
+    },
+    {
+      "file_name": "0897_창작국악_창작국악_북.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "북"
+      }
+    },
+    {
+      "file_name": "0897_창작국악_창작국악_소금.wav",
+      "tags": {
+        "instrumentMajor": "기타",
+        "instrumentSub": "소금"
+      }
+    },
+    {
+      "file_name": "0897_창작국악_창작국악_아쟁.wav",
+      "tags": {
+        "instrumentMajor": "아쟁",
+        "instrumentSub": "아쟁"
+      }
+    },
+    {
+      "file_name": "0897_창작국악_창작국악_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    },
+    {
+      "file_name": "0897_창작국악_창작국악_피리.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리"
+      }
+    },
+    {
+      "file_name": "0897_창작국악_창작국악_피리2.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리2"
+      }
+    },
+    {
+      "file_name": "0897_창작국악_창작국악_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    },
+    {
+      "file_name": "0897_창작국악_창작국악_해금2.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금2"
+      }
+    }
+  ]
+}
