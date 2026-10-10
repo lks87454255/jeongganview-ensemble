@@ -1,0 +1,80 @@
+{
+  "version": 2,
+  "generated": "2026-10-09T17:56:11Z",
+  "id": "0311_민속악_산조",
+  "title": "원장현류 대금 산조 중 진양조 1",
+  "work": "원장현류 대금 산조",
+  "movement": "진양조 1",
+  "performers": "국립국악원",
+  "genreMajor": "민속악",
+  "genreSub": "산조",
+  "genreDetail": "대금 산조",
+  "tempoBpm": 100,
+  "timeSignature": "18/8",
+  "jangdan": "진양조",
+  "jangdanInferred": false,
+  "cycleMs": 10800,
+  "mode": "solo",
+  "leadKey": "daegeum",
+  "fragment": false,
+  "westernKey": "E / Dbm",
+  "recordDate": "2025-08-09",
+  "moods": [
+    "명상적인",
+    "절제된",
+    "진지한",
+    "차분한",
+    "표현적인",
+    "향수 어린"
+  ],
+  "sampleRate": 48000,
+  "sourceSampleRate": 48000,
+  "channels": 2,
+  "durationMs": 205500,
+  "codec": "aac",
+  "bitrateKbps": 128,
+  "labelUrl": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0311_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0/0311_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0.json",
+  "quality": {
+    "fitted": true,
+    "unitResidualDb": -5.9,
+    "mixResidualDb": -11.5,
+    "maxStemCorr": 0.0,
+    "silentStems": 0
+  },
+  "master": {
+    "fileName": "0311_민속악_산조.m4a",
+    "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0311_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0/0311_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0.m4a",
+    "sizeBytes": 3256904,
+    "sha1": "725c1abb1af92914e780e7f8f4a79fe55dd938ad"
+  },
+  "stems": [
+    {
+      "key": "daegeum",
+      "name": "대금",
+      "baseName": "대금",
+      "group": "관악",
+      "instrumentMajor": "대금",
+      "sourceFileName": "0311_민속악_산조_대금.wav",
+      "fileName": "0311_민속악_산조_대금.m4a",
+      "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0311_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0/stems/0311_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0_%EB%8C%80%EA%B8%88.m4a",
+      "sizeBytes": 3254128,
+      "sha1": "9d52144a60a53134b3d39065fdfa464488e273a1",
+      "defaultGain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "key": "janggu",
+      "name": "장구",
+      "baseName": "장구",
+      "group": "타악",
+      "instrumentMajor": "타악기",
+      "sourceFileName": "0311_민속악_산조_장구.wav",
+      "fileName": "0311_민속악_산조_장구.m4a",
+      "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0311_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0/stems/0311_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0_%EC%9E%A5%EA%B5%AC.m4a",
+      "sizeBytes": 3126278,
+      "sha1": "7dc4ee9243fc4f2b004fec7dbf15f3c82f9950ae",
+      "defaultGain": 0.663,
+      "pan": 0.0
+    }
+  ]
+}

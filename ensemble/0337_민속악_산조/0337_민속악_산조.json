@@ -1,0 +1,62 @@
+{
+  "project_name": "0337_민속악_산조",
+  "_source": "메타데이터.csv",
+  "master": {
+    "file_name": "0337_민속악_산조.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "민속악",
+      "genreSub": "산조",
+      "genreDetail": "대금 산조",
+      "title": "원장현류 대금 산조 중 자진모리 6",
+      "tempoBpm": 240,
+      "timeSignature": "12/8",
+      "recordDate": "2025-08-09",
+      "moods": [
+        {
+          "mood": "리듬감 있는",
+          "count": 3
+        },
+        {
+          "mood": "쓸쓸한",
+          "count": 2
+        },
+        {
+          "mood": "애절한",
+          "count": 2
+        },
+        {
+          "mood": "에너지 넘치는",
+          "count": 2
+        },
+        {
+          "mood": "유려한",
+          "count": 3
+        },
+        {
+          "mood": "표현적인",
+          "count": 3
+        }
+      ],
+      "western_key": "E / Dbm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0337_민속악_산조_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0337_민속악_산조_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    }
+  ]
+}
