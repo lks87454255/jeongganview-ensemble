@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "generated": "2026-10-09T21:17:08Z",
+  "id": "0976_창작국악_창작국악",
+  "title": "새산조 5.",
+  "work": "새산조 5.",
+  "movement": null,
+  "performers": "국립국악원",
+  "genreMajor": "창작국악",
+  "genreSub": "창작국악",
+  "genreDetail": "창작국악",
+  "tempoBpm": 240,
+  "timeSignature": "12/8",
+  "jangdan": null,
+  "jangdanInferred": false,
+  "cycleMs": 3000,
+  "mode": "ensemble",
+  "leadKey": null,
+  "fragment": false,
+  "westernKey": "Gb / Ebm",
+  "recordDate": "2025-09-22",
+  "moods": [
+    "경쾌한",
+    "리듬감 있는",
+    "절제된",
+    "조화로운",
+    "차분한"
+  ],
+  "sampleRate": 48000,
+  "sourceSampleRate": 48000,
+  "channels": 2,
+  "durationMs": 294000,
+  "codec": "aac",
+  "bitrateKbps": 128,
+  "labelUrl": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0976_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/0976_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85.json",
+  "quality": {
+    "fitted": true,
+    "unitResidualDb": -23.0,
+    "mixResidualDb": -28.7,
+    "maxStemCorr": 0.0,
+    "silentStems": 0
+  },
+  "master": {
+    "fileName": "0976_창작국악_창작국악.m4a",
+    "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0976_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/0976_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85.m4a",
+    "sizeBytes": 4802072,
+    "sha1": "a660a1db7766bc1878d3d39101f08b52ccfad705"
+  },
+  "stems": [
+    {
+      "key": "gayageum",
+      "name": "가야금",
+      "baseName": "가야금",
+      "group": "현악",
+      "instrumentMajor": "가야금",
+      "sourceFileName": "0976_창작국악_창작국악_가야금.wav",
+      "fileName": "0976_창작국악_창작국악_가야금.m4a",
+      "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0976_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/stems/0976_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EA%B0%80%EC%95%BC%EA%B8%88.m4a",
+      "sizeBytes": 4800978,
+      "sha1": "616e9d731f09564678b69a9e9c186475a04b3b91",
+      "defaultGain": 1.0,
+      "pan": 0.0
+    }
+  ]
+}
