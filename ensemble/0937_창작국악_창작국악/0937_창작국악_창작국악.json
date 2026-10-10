@@ -1,0 +1,80 @@
+{
+  "project_name": "0937_창작국악_창작국악",
+  "_source": "메타데이터.csv",
+  "master": {
+    "file_name": "0937_창작국악_창작국악.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "창작국악",
+      "genreSub": "창작국악",
+      "genreDetail": "창작국악",
+      "title": "겨울/밤-다우삼매 2",
+      "tempoBpm": 30,
+      "timeSignature": "4/4",
+      "recordDate": "2025-10-04",
+      "moods": [
+        {
+          "mood": "공포스러운",
+          "count": 2
+        },
+        {
+          "mood": "긴장감 넘치는",
+          "count": 2
+        },
+        {
+          "mood": "명상적인",
+          "count": 2
+        },
+        {
+          "mood": "불가사의한",
+          "count": 2
+        },
+        {
+          "mood": "절제된",
+          "count": 2
+        },
+        {
+          "mood": "진지한",
+          "count": 2
+        },
+        {
+          "mood": "표현적인",
+          "count": 2
+        }
+      ],
+      "western_key": "Ab / Fm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0937_창작국악_창작국악_가야금.wav",
+      "tags": {
+        "instrumentMajor": "가야금",
+        "instrumentSub": "가야금"
+      }
+    },
+    {
+      "file_name": "0937_창작국악_창작국악_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0937_창작국악_창작국악_방울.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "방울"
+      }
+    },
+    {
+      "file_name": "0937_창작국악_창작국악_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    }
+  ]
+}

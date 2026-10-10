@@ -1,0 +1,79 @@
+{
+  "project_name": "0941_창작국악_창작국악",
+  "master": {
+    "file_name": "0941_창작국악_창작국악.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "창작국악",
+      "genreSub": "창작국악",
+      "genreDetail": "창작국악",
+      "title": "초일향 1",
+      "tempoBpm": 50,
+      "timeSignature": "4/4",
+      "recordDate": "2025-09-23",
+      "moods": [
+        {
+          "mood": "명상적인",
+          "count": 3
+        },
+        {
+          "mood": "부드러운",
+          "count": 2
+        },
+        {
+          "mood": "아정한",
+          "count": 2
+        },
+        {
+          "mood": "우아한",
+          "count": 2
+        },
+        {
+          "mood": "절제된",
+          "count": 2
+        },
+        {
+          "mood": "차분한",
+          "count": 4
+        },
+        {
+          "mood": "평화로운",
+          "count": 2
+        }
+      ],
+      "western_key": "Ab / Fm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0941_창작국악_창작국악_거문고.wav",
+      "tags": {
+        "instrumentMajor": "거문고",
+        "instrumentSub": "거문고"
+      }
+    },
+    {
+      "file_name": "0941_창작국악_창작국악_단소.wav",
+      "tags": {
+        "instrumentMajor": "기타",
+        "instrumentSub": "단소"
+      }
+    },
+    {
+      "file_name": "0941_창작국악_창작국악_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0941_창작국악_창작국악_양금.wav",
+      "tags": {
+        "instrumentMajor": "양금",
+        "instrumentSub": "양금"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "version": 2,
+  "generated": "2026-10-09T21:02:35Z",
+  "id": "0942_창작국악_창작국악",
+  "title": "동다송 1",
+  "work": "동다송",
+  "movement": "1",
+  "performers": "국립국악원",
+  "genreMajor": "창작국악",
+  "genreSub": "창작국악",
+  "genreDetail": "창작국악",
+  "tempoBpm": 30,
+  "timeSignature": "4/4",
+  "jangdan": null,
+  "jangdanInferred": false,
+  "cycleMs": 8000,
+  "mode": "ensemble",
+  "leadKey": null,
+  "fragment": false,
+  "westernKey": "Ab / Fm",
+  "recordDate": "2025-10-04",
+  "moods": [
+    "명상적인",
+    "잔잔한",
+    "절제된",
+    "차분한",
+    "품위 있는"
+  ],
+  "sampleRate": 48000,
+  "sourceSampleRate": 48000,
+  "channels": 2,
+  "durationMs": 344000,
+  "codec": "aac",
+  "bitrateKbps": 128,
+  "labelUrl": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0942_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/0942_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85.json",
+  "quality": {
+    "fitted": true,
+    "unitResidualDb": -1.4,
+    "mixResidualDb": -4.0,
+    "maxStemCorr": 0.003,
+    "silentStems": 0
+  },
+  "master": {
+    "fileName": "0942_창작국악_창작국악.m4a",
+    "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0942_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/0942_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85.m4a",
+    "sizeBytes": 5320464,
+    "sha1": "567486905b44a10e49a2559aa765da8e5e9ea95d"
+  },
+  "stems": [
+    {
+      "key": "gayageum",
+      "name": "가야금",
+      "baseName": "가야금",
+      "group": "현악",
+      "instrumentMajor": "가야금",
+      "sourceFileName": "0942_창작국악_창작국악_가야금.wav",
+      "fileName": "0942_창작국악_창작국악_가야금.m4a",
+      "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0942_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/stems/0942_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EA%B0%80%EC%95%BC%EA%B8%88.m4a",
+      "sizeBytes": 5399529,
+      "sha1": "973815010a6e300ae923cf8e13b94770429fcd93",
+      "defaultGain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "key": "daegeum",
+      "name": "대금",
+      "baseName": "대금",
+      "group": "관악",
+      "instrumentMajor": "대금",
+      "sourceFileName": "0942_창작국악_창작국악_대금.wav",
+      "fileName": "0942_창작국악_창작국악_대금.m4a",
+      "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0942_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/stems/0942_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EB%8C%80%EA%B8%88.m4a",
+      "sizeBytes": 4321673,
+      "sha1": "9407af0a6721a88e1b52923d758bdfd904d402c8",
+      "defaultGain": 0.05,
+      "pan": 0.0
+    }
+  ]
+}
