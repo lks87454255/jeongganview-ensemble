@@ -268,3 +268,17 @@ def work_movement(title: str, genre_sub: str, genre_detail: str):
 def natural_key(s: str):
     """'중모리 2' < '중모리 10' 정렬용"""
     return [int(x) if x.isdigit() else x for x in re.split(r"(\d+)", nfc(s or ""))]
+
+
+def load_excluded(root: str) -> dict:
+    """excluded.txt → {project_name: 이유}"""
+    path = os.path.join(root, "excluded.txt")
+    out = {}
+    if os.path.isfile(path):
+        for line in open(path, encoding="utf-8"):
+            body, _, why = line.partition("#")
+            body = body.strip()
+            if body:
+                out[nfc(body.split()[0])] = why.strip()
+    return out
+

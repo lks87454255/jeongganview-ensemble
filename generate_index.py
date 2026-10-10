@@ -23,7 +23,7 @@ from datetime import datetime, timezone
 
 from ensemble_common import (
     ENSEMBLE_DIR, FRAGMENT_MAX_MS, INDEX_DIR, OWNER, REPO, BRANCH,
-    asset_url, cycle_ms, jangdan_of, mode_of, natural_key, nfc, work_movement,
+    asset_url, cycle_ms, jangdan_of, load_excluded, mode_of, natural_key, nfc, work_movement,
 )
 
 INDEX_FILE = "ensemble-index.json"
@@ -128,12 +128,16 @@ def load_songs(root: str) -> list:
     base = os.path.join(root, ENSEMBLE_DIR)
     if not os.path.isdir(base):
         raise SystemExit(f"❌ {base} 폴더가 없습니다. build_ensemble.py 를 먼저 실행하세요.")
+    excluded = load_excluded(root)
     songs = []
     for d in sorted(os.listdir(base), key=nfc):
         song_dir = os.path.join(base, d)
         if d.startswith(".") or not os.path.isdir(song_dir):
             continue
         song = nfc(d)
+        if song in excluded:
+            print(f"⏭️  제외: {song} ({excluded[song]})")
+            continue
         meta_path = os.path.join(song_dir, f"{song}.meta.json")
         if not os.path.isfile(meta_path):
             print(f"⚠️  meta.json 없음, 건너뜀: {song}")

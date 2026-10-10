@@ -50,11 +50,12 @@ import numpy as np
 from ensemble_common import (
     ENSEMBLE_DIR, FRAGMENT_MAX_MS, STEMS_DIR, TARGET_SAMPLE_RATE,
     asset_url, cycle_ms, instrument_info, jangdan_of, label_from_csv,
-    load_meta_csv, mode_of, nfc, work_movement,
+    load_excluded, load_meta_csv, mode_of, nfc, work_movement,
 )
 
 META_VERSION = 2
-DURATION_TOLERANCE_MS = 10           # 스템 간 길이 차이 허용
+DURATION_TOLERANCE_MS = 100          # 스템 간 길이 차이 허용 (앱 믹서는 짧은 트랙 끝을 무음으로 채움)
+DURATION_WARN_MS = 10                # 이보다 크면 경고 + quality.maxLengthDiffMs 기록
 ANALYSIS_RATE = 6000                 # 기본 믹스 계산용 저역 표본화 (게인은 대역 무관 상수)
 MIN_GAIN = 0.05                      # 정규화 후 최저 기본 볼륨
 FIT_IMPROVE_DB = 1.0                 # 단순 합보다 이만큼 이상 나아질 때만 계산 게인 사용
@@ -521,9 +522,13 @@ def build_song(song: str, source, csv_rows: dict, out_root: str, bitrate_k: int,
             w = Wav(p)
             if w.sample_rate != mw.sample_rate:
                 raise BuildError(f"샘플레이트 불일치: {st['file_name']} {w.sample_rate} != {mw.sample_rate}")
-            if abs(w.duration_ms - mw.duration_ms) > DURATION_TOLERANCE_MS:
+            diff = w.duration_ms - mw.duration_ms
+            if abs(diff) > DURATION_TOLERANCE_MS:
                 raise BuildError(f"길이 불일치: {st['file_name']} {w.duration_ms}ms != {mw.duration_ms}ms")
+            if abs(diff) > DURATION_WARN_MS:
+                log(f"  ⚠️  길이 차이 {diff:+d}ms 허용: {st['file_name']}")
             stem_items.append((st, p, w))
+        max_len_diff = max(abs(w.duration_ms - mw.duration_ms) for _s, _p, w in stem_items)
         log(f"  ✅ 소스: stem {len(stems)}개, {mw.sample_rate}Hz, {mw.channels}ch, {mw.bits}bit, "
             f"{mw.duration_ms / 1000:.1f}s" + ("  (→ 48kHz 변환)" if mw.sample_rate != TARGET_SAMPLE_RATE else ""))
 
@@ -639,7 +644,8 @@ def build_song(song: str, source, csv_rows: dict, out_root: str, bitrate_k: int,
         "codec": "aac",
         "bitrateKbps": bitrate_k,
         "labelUrl": asset_url(ENSEMBLE_DIR, song, label_name),
-        "quality": {k: mix[k] for k in ("fitted", "unitResidualDb", "mixResidualDb", "maxStemCorr", "silentStems")},
+        "quality": {**{k: mix[k] for k in ("fitted", "unitResidualDb", "mixResidualDb", "maxStemCorr", "silentStems")},
+                    **({"maxLengthDiffMs": max_len_diff} if max_len_diff > DURATION_WARN_MS else {})},
         "master": master_entry,
         "stems": stem_entries,
     }
@@ -684,6 +690,10 @@ def main() -> None:
         raise SystemExit(f"❌ {e}")
     csv_rows = load_meta_csv(os.path.expanduser(args.meta_csv)) if args.meta_csv else {}
     songs = source.songs() if args.all else (read_select(args.select) if args.select else [nfc(s) for s in args.song])
+    excluded = load_excluded(here)
+    if args.all and excluded:
+        songs = [x for x in songs if x not in excluded]
+        log(f"제외 {len(excluded)}곡 (excluded.txt)")
     if not songs:
         raise SystemExit("❌ 처리할 곡이 없습니다.")
 
