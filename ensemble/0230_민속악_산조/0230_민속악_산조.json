@@ -1,0 +1,57 @@
+{
+  "project_name": "0230_민속악_산조",
+  "master": {
+    "file_name": "0230_민속악_산조.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "민속악",
+      "genreSub": "산조",
+      "genreDetail": "거문고 산조",
+      "title": "신쾌동류 거문고 산조 중 진양조 6",
+      "tempoBpm": 100,
+      "timeSignature": "18/8",
+      "recordDate": "2025-09-04",
+      "moods": [
+        {
+          "mood": "강한",
+          "count": 2
+        },
+        {
+          "mood": "우울감 있는",
+          "count": 2
+        },
+        {
+          "mood": "절제된",
+          "count": 2
+        },
+        {
+          "mood": "진지한",
+          "count": 2
+        },
+        {
+          "mood": "표현적인",
+          "count": 2
+        }
+      ],
+      "western_key": "Db / Bbm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0230_민속악_산조_거문고.wav",
+      "tags": {
+        "instrumentMajor": "거문고",
+        "instrumentSub": "거문고"
+      }
+    },
+    {
+      "file_name": "0230_민속악_산조_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "version": 2,
+  "generated": "2026-10-09T17:46:46Z",
+  "id": "0212_민속악_산조",
+  "title": "성금연류 가야금 산조 중 자진모리 6",
+  "work": "성금연류 가야금 산조",
+  "movement": "자진모리 6",
+  "performers": "국립국악원",
+  "genreMajor": "민속악",
+  "genreSub": "산조",
+  "genreDetail": "가야금 산조",
+  "tempoBpm": 260,
+  "timeSignature": "12/8",
+  "jangdan": "자진모리",
+  "jangdanInferred": false,
+  "cycleMs": 2769,
+  "mode": "solo",
+  "leadKey": "gayageum",
+  "fragment": false,
+  "westernKey": "Bb / Gm",
+  "recordDate": "2025-08-26",
+  "moods": [
+    "강한",
+    "다이내믹한",
+    "리듬감 있는",
+    "사색적인",
+    "표현적인"
+  ],
+  "sampleRate": 48000,
+  "sourceSampleRate": 48000,
+  "channels": 2,
+  "durationMs": 272077,
+  "codec": "aac",
+  "bitrateKbps": 128,
+  "labelUrl": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0212_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0/0212_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0.json",
+  "quality": {
+    "fitted": true,
+    "unitResidualDb": -6.8,
+    "mixResidualDb": -10.8,
+    "maxStemCorr": 0.001,
+    "silentStems": 0
+  },
+  "master": {
+    "fileName": "0212_민속악_산조.m4a",
+    "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0212_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0/0212_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0.m4a",
+    "sizeBytes": 4487303,
+    "sha1": "2e1e6425f4872659cfad61fbb84d71a28386afae"
+  },
+  "stems": [
+    {
+      "key": "gayageum",
+      "name": "가야금",
+      "baseName": "가야금",
+      "group": "현악",
+      "instrumentMajor": "가야금",
+      "sourceFileName": "0212_민속악_산조_가야금.wav",
+      "fileName": "0212_민속악_산조_가야금.m4a",
+      "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0212_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0/stems/0212_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0_%EA%B0%80%EC%95%BC%EA%B8%88.m4a",
+      "sizeBytes": 4489673,
+      "sha1": "c3c82a82efabdc4378dfdf8d63380ef095edb5f7",
+      "defaultGain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "key": "janggu",
+      "name": "장구",
+      "baseName": "장구",
+      "group": "타악",
+      "instrumentMajor": "타악기",
+      "sourceFileName": "0212_민속악_산조_장구.wav",
+      "fileName": "0212_민속악_산조_장구.m4a",
+      "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0212_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0/stems/0212_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0_%EC%9E%A5%EA%B5%AC.m4a",
+      "sizeBytes": 4330670,
+      "sha1": "88deca3264f80e195cf73a232524b4e949626614",
+      "defaultGain": 0.566,
+      "pan": 0.0
+    }
+  ]
+}
