@@ -1,0 +1,61 @@
+{
+  "project_name": "0253_민속악_산조",
+  "master": {
+    "file_name": "0253_민속악_산조.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "민속악",
+      "genreSub": "산조",
+      "genreDetail": "거문고 산조",
+      "title": "신쾌동류 거문고 산조 중 중모리 5",
+      "tempoBpm": 60,
+      "timeSignature": "12/4",
+      "recordDate": "2025-09-04",
+      "moods": [
+        {
+          "mood": "리듬감 있는",
+          "count": 2
+        },
+        {
+          "mood": "우울감 있는",
+          "count": 2
+        },
+        {
+          "mood": "잔잔한",
+          "count": 2
+        },
+        {
+          "mood": "진지한",
+          "count": 2
+        },
+        {
+          "mood": "차분한",
+          "count": 4
+        },
+        {
+          "mood": "향수 어린",
+          "count": 2
+        }
+      ],
+      "western_key": "Db / Bbm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0253_민속악_산조_거문고.wav",
+      "tags": {
+        "instrumentMajor": "거문고",
+        "instrumentSub": "거문고"
+      }
+    },
+    {
+      "file_name": "0253_민속악_산조_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    }
+  ]
+}
