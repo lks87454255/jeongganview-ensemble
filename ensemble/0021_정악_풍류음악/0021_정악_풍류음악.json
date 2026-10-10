@@ -1,0 +1,121 @@
+{
+  "project_name": "0021_정악_풍류음악",
+  "master": {
+    "file_name": "0021_정악_풍류음악.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "정악",
+      "genreSub": "풍류음악",
+      "genreDetail": "영산회상, 도드리",
+      "title": "평조회상(유초신지곡) 중 중령산 4장",
+      "tempoBpm": 100,
+      "timeSignature": "60/8",
+      "recordDate": "2025-08-05",
+      "moods": [
+        {
+          "mood": "기품 있는",
+          "count": 3
+        },
+        {
+          "mood": "명상적인",
+          "count": 3
+        },
+        {
+          "mood": "여유로운",
+          "count": 3
+        },
+        {
+          "mood": "우아한",
+          "count": 2
+        },
+        {
+          "mood": "조화로운",
+          "count": 2
+        },
+        {
+          "mood": "차분한",
+          "count": 2
+        },
+        {
+          "mood": "품위 있는",
+          "count": 2
+        }
+      ],
+      "western_key": "Ab / Fm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0021_정악_풍류음악_가야금.wav",
+      "tags": {
+        "instrumentMajor": "가야금",
+        "instrumentSub": "가야금"
+      }
+    },
+    {
+      "file_name": "0021_정악_풍류음악_거문고.wav",
+      "tags": {
+        "instrumentMajor": "거문고",
+        "instrumentSub": "거문고"
+      }
+    },
+    {
+      "file_name": "0021_정악_풍류음악_단소.wav",
+      "tags": {
+        "instrumentMajor": "기타",
+        "instrumentSub": "단소"
+      }
+    },
+    {
+      "file_name": "0021_정악_풍류음악_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0021_정악_풍류음악_소금.wav",
+      "tags": {
+        "instrumentMajor": "기타",
+        "instrumentSub": "소금"
+      }
+    },
+    {
+      "file_name": "0021_정악_풍류음악_아쟁.wav",
+      "tags": {
+        "instrumentMajor": "아쟁",
+        "instrumentSub": "아쟁"
+      }
+    },
+    {
+      "file_name": "0021_정악_풍류음악_양금.wav",
+      "tags": {
+        "instrumentMajor": "양금",
+        "instrumentSub": "양금"
+      }
+    },
+    {
+      "file_name": "0021_정악_풍류음악_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    },
+    {
+      "file_name": "0021_정악_풍류음악_피리.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리"
+      }
+    },
+    {
+      "file_name": "0021_정악_풍류음악_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    }
+  ]
+}

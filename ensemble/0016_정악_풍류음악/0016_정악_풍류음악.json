@@ -1,0 +1,100 @@
+{
+  "project_name": "0016_정악_풍류음악",
+  "master": {
+    "file_name": "0016_정악_풍류음악.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "정악",
+      "genreSub": "풍류음악",
+      "genreDetail": "영산회상, 도드리",
+      "title": "관악영산회상(삼현영산회상,표정만방지곡) 중 중령산 4장",
+      "tempoBpm": 100,
+      "timeSignature": "60/8",
+      "recordDate": "2025-08-05",
+      "moods": [
+        {
+          "mood": "기품 있는",
+          "count": 2
+        },
+        {
+          "mood": "단아한",
+          "count": 2
+        },
+        {
+          "mood": "명상적인",
+          "count": 2
+        },
+        {
+          "mood": "유려한",
+          "count": 2
+        },
+        {
+          "mood": "의례적인",
+          "count": 4
+        },
+        {
+          "mood": "절제된",
+          "count": 2
+        },
+        {
+          "mood": "품위 있는",
+          "count": 3
+        }
+      ],
+      "western_key": "Gb / Ebm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0016_정악_풍류음악_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0016_정악_풍류음악_소금.wav",
+      "tags": {
+        "instrumentMajor": "기타",
+        "instrumentSub": "소금"
+      }
+    },
+    {
+      "file_name": "0016_정악_풍류음악_아쟁.wav",
+      "tags": {
+        "instrumentMajor": "아쟁",
+        "instrumentSub": "아쟁"
+      }
+    },
+    {
+      "file_name": "0016_정악_풍류음악_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    },
+    {
+      "file_name": "0016_정악_풍류음악_좌고.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "좌고"
+      }
+    },
+    {
+      "file_name": "0016_정악_풍류음악_피리.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리"
+      }
+    },
+    {
+      "file_name": "0016_정악_풍류음악_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    }
+  ]
+}
