@@ -1,0 +1,90 @@
+{
+  "project_name": "0417_민속악_대풍류",
+  "_source": "메타데이터.csv",
+  "master": {
+    "file_name": "0417_민속악_대풍류.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "민속악",
+      "genreSub": "대풍류",
+      "genreDetail": "대풍류",
+      "title": "중영산",
+      "tempoBpm": 120,
+      "timeSignature": "30/8",
+      "recordDate": "2025-09-03",
+      "moods": [
+        {
+          "mood": "기품 있는",
+          "count": 2
+        },
+        {
+          "mood": "애절한",
+          "count": 2
+        },
+        {
+          "mood": "절제된",
+          "count": 2
+        },
+        {
+          "mood": "조화로운",
+          "count": 2
+        },
+        {
+          "mood": "평화로운",
+          "count": 2
+        },
+        {
+          "mood": "품위 있는",
+          "count": 3
+        }
+      ],
+      "western_key": "Ab / Fm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0417_민속악_대풍류_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0417_민속악_대풍류_아쟁.wav",
+      "tags": {
+        "instrumentMajor": "아쟁",
+        "instrumentSub": "아쟁"
+      }
+    },
+    {
+      "file_name": "0417_민속악_대풍류_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    },
+    {
+      "file_name": "0417_민속악_대풍류_좌고.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "좌고"
+      }
+    },
+    {
+      "file_name": "0417_민속악_대풍류_피리.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리"
+      }
+    },
+    {
+      "file_name": "0417_민속악_대풍류_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    }
+  ]
+}
