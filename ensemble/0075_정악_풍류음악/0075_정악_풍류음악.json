@@ -1,0 +1,59 @@
+{
+  "project_name": "0075_정악_풍류음악",
+  "master": {
+    "file_name": "0075_정악_풍류음악.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "정악",
+      "genreSub": "풍류음악",
+      "genreDetail": "가곡,가사,시조",
+      "title": "매화가",
+      "tempoBpm": 180,
+      "timeSignature": "18/8",
+      "recordDate": "2025-08-11",
+      "moods": [
+        {
+          "mood": "쓸쓸한",
+          "count": 2
+        },
+        {
+          "mood": "표현적인",
+          "count": 2
+        }
+      ],
+      "western_key": "Bb / Gm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0075_정악_풍류음악_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0075_정악_풍류음악_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    },
+    {
+      "file_name": "0075_정악_풍류음악_피리.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리"
+      }
+    },
+    {
+      "file_name": "0075_정악_풍류음악_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    }
+  ]
+}

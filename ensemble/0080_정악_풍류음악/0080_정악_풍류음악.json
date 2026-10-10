@@ -1,0 +1,71 @@
+{
+  "project_name": "0080_정악_풍류음악",
+  "master": {
+    "file_name": "0080_정악_풍류음악.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "정악",
+      "genreSub": "풍류음악",
+      "genreDetail": "가곡,가사,시조",
+      "title": "수양산가",
+      "tempoBpm": 100,
+      "timeSignature": "18/8",
+      "recordDate": "2025-08-11",
+      "moods": [
+        {
+          "mood": "기품 있는",
+          "count": 2
+        },
+        {
+          "mood": "여유로운",
+          "count": 2
+        },
+        {
+          "mood": "유려한",
+          "count": 2
+        },
+        {
+          "mood": "절제된",
+          "count": 2
+        },
+        {
+          "mood": "차분한",
+          "count": 2
+        }
+      ],
+      "western_key": "Db / Bbm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0080_정악_풍류음악_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0080_정악_풍류음악_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    },
+    {
+      "file_name": "0080_정악_풍류음악_피리.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리"
+      }
+    },
+    {
+      "file_name": "0080_정악_풍류음악_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    }
+  ]
+}
