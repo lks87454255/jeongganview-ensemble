@@ -1,0 +1,89 @@
+{
+  "project_name": "0786_민속악_민요",
+  "_source": "메타데이터.csv",
+  "master": {
+    "file_name": "0786_민속악_민요.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "민속악",
+      "genreSub": "민요",
+      "genreDetail": "남도민요",
+      "title": "개고리타령",
+      "tempoBpm": 140,
+      "timeSignature": "12/8",
+      "recordDate": "2025-08-02",
+      "moods": [
+        {
+          "mood": "리듬감 있는",
+          "count": 2
+        },
+        {
+          "mood": "애절한",
+          "count": 2
+        },
+        {
+          "mood": "진지한",
+          "count": 2
+        },
+        {
+          "mood": "표현적인",
+          "count": 2
+        }
+      ],
+      "western_key": "E / Dbm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0786_민속악_민요_가야금.wav",
+      "tags": {
+        "instrumentMajor": "가야금",
+        "instrumentSub": "가야금"
+      }
+    },
+    {
+      "file_name": "0786_민속악_민요_거문고.wav",
+      "tags": {
+        "instrumentMajor": "거문고",
+        "instrumentSub": "거문고"
+      }
+    },
+    {
+      "file_name": "0786_민속악_민요_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0786_민속악_민요_아쟁.wav",
+      "tags": {
+        "instrumentMajor": "아쟁",
+        "instrumentSub": "아쟁"
+      }
+    },
+    {
+      "file_name": "0786_민속악_민요_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    },
+    {
+      "file_name": "0786_민속악_민요_피리.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리"
+      }
+    },
+    {
+      "file_name": "0786_민속악_민요_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    }
+  ]
+}
