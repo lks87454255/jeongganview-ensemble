@@ -1,0 +1,81 @@
+{
+  "version": 2,
+  "generated": "2026-10-09T20:06:07Z",
+  "id": "0804_창작국악_창작국악",
+  "title": "산운 1악장",
+  "work": "산운",
+  "movement": "1악장",
+  "performers": "국립국악원",
+  "genreMajor": "창작국악",
+  "genreSub": "창작국악",
+  "genreDetail": "창작국악",
+  "tempoBpm": 100,
+  "timeSignature": "12/8",
+  "jangdan": null,
+  "jangdanInferred": false,
+  "cycleMs": 7200,
+  "mode": "ensemble",
+  "leadKey": null,
+  "fragment": false,
+  "westernKey": "E / Dbm",
+  "recordDate": "2025-10-04",
+  "moods": [
+    "명상적인",
+    "불가사의한",
+    "신비로운",
+    "우아한",
+    "잔잔한",
+    "절제된",
+    "진지한"
+  ],
+  "sampleRate": 48000,
+  "sourceSampleRate": 48000,
+  "channels": 2,
+  "durationMs": 165600,
+  "codec": "aac",
+  "bitrateKbps": 128,
+  "labelUrl": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0804_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/0804_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85.json",
+  "quality": {
+    "fitted": true,
+    "unitResidualDb": -0.8,
+    "mixResidualDb": -5.2,
+    "maxStemCorr": 0.002,
+    "silentStems": 0
+  },
+  "master": {
+    "fileName": "0804_창작국악_창작국악.m4a",
+    "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0804_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/0804_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85.m4a",
+    "sizeBytes": 2491591,
+    "sha1": "57059e4db8ca95ec544e9436b33e7edd87a5bd9f"
+  },
+  "stems": [
+    {
+      "key": "gayageum",
+      "name": "가야금",
+      "baseName": "가야금",
+      "group": "현악",
+      "instrumentMajor": "가야금",
+      "sourceFileName": "0804_창작국악_창작국악_가야금.wav",
+      "fileName": "0804_창작국악_창작국악_가야금.m4a",
+      "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0804_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/stems/0804_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EA%B0%80%EC%95%BC%EA%B8%88.m4a",
+      "sizeBytes": 2577032,
+      "sha1": "98443d2a3564c443abd2574d97246187273041ba",
+      "defaultGain": 0.05,
+      "pan": 0.0
+    },
+    {
+      "key": "daegeum",
+      "name": "대금",
+      "baseName": "대금",
+      "group": "관악",
+      "instrumentMajor": "대금",
+      "sourceFileName": "0804_창작국악_창작국악_대금.wav",
+      "fileName": "0804_창작국악_창작국악_대금.m4a",
+      "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0804_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/stems/0804_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EB%8C%80%EA%B8%88.m4a",
+      "sizeBytes": 2464536,
+      "sha1": "40e73f514d33bcf4c6ca57122f6659184da156ea",
+      "defaultGain": 1.0,
+      "pan": 0.0
+    }
+  ]
+}

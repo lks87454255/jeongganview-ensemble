@@ -1,0 +1,81 @@
+{
+  "version": 2,
+  "generated": "2026-10-09T20:05:52Z",
+  "id": "0801_창작국악_창작국악",
+  "title": "비단길 2악장",
+  "work": "비단길",
+  "movement": "2악장",
+  "performers": "국립국악원",
+  "genreMajor": "창작국악",
+  "genreSub": "창작국악",
+  "genreDetail": "창작국악",
+  "tempoBpm": 100,
+  "timeSignature": "4/4",
+  "jangdan": null,
+  "jangdanInferred": false,
+  "cycleMs": 2400,
+  "mode": "ensemble",
+  "leadKey": null,
+  "fragment": false,
+  "westernKey": "Eb / Cm",
+  "recordDate": "2025-10-04",
+  "moods": [
+    "긴장감 넘치는",
+    "긴장된",
+    "다이내믹한",
+    "리듬감 있는",
+    "몽환적인",
+    "에너지 넘치는",
+    "차분한"
+  ],
+  "sampleRate": 48000,
+  "sourceSampleRate": 48000,
+  "channels": 2,
+  "durationMs": 121800,
+  "codec": "aac",
+  "bitrateKbps": 128,
+  "labelUrl": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0801_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/0801_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85.json",
+  "quality": {
+    "fitted": false,
+    "unitResidualDb": -6.6,
+    "mixResidualDb": -6.6,
+    "maxStemCorr": 0.0,
+    "silentStems": 0
+  },
+  "master": {
+    "fileName": "0801_창작국악_창작국악.m4a",
+    "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0801_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/0801_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85.m4a",
+    "sizeBytes": 2010149,
+    "sha1": "44ea9518ec7ad333f96615d2043ecad347233099"
+  },
+  "stems": [
+    {
+      "key": "gayageum",
+      "name": "가야금",
+      "baseName": "가야금",
+      "group": "현악",
+      "instrumentMajor": "가야금",
+      "sourceFileName": "0801_창작국악_창작국악_가야금.wav",
+      "fileName": "0801_창작국악_창작국악_가야금.m4a",
+      "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0801_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/stems/0801_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EA%B0%80%EC%95%BC%EA%B8%88.m4a",
+      "sizeBytes": 2012070,
+      "sha1": "4e32a4fc8e62029e92cb8b1872157e2b0192e105",
+      "defaultGain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "key": "janggu",
+      "name": "장구",
+      "baseName": "장구",
+      "group": "타악",
+      "instrumentMajor": "타악기",
+      "sourceFileName": "0801_창작국악_창작국악_장구.wav",
+      "fileName": "0801_창작국악_창작국악_장구.m4a",
+      "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0801_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/stems/0801_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%9E%A5%EA%B5%AC.m4a",
+      "sizeBytes": 1995969,
+      "sha1": "37513abacb9db025aa897fb8587de18e396153e5",
+      "defaultGain": 1.0,
+      "pan": 0.0
+    }
+  ]
+}
