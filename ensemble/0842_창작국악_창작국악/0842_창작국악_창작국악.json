@@ -1,0 +1,117 @@
+{
+  "project_name": "0842_창작국악_창작국악",
+  "master": {
+    "file_name": "0842_창작국악_창작국악.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "창작국악",
+      "genreSub": "창작국악",
+      "genreDetail": "창작국악",
+      "title": "바라지 1",
+      "tempoBpm": 100,
+      "timeSignature": "9/8",
+      "recordDate": "2025-09-15",
+      "moods": [
+        {
+          "mood": "강력한",
+          "count": 2
+        },
+        {
+          "mood": "긴장감 넘치는",
+          "count": 2
+        },
+        {
+          "mood": "긴장된",
+          "count": 3
+        },
+        {
+          "mood": "어두운",
+          "count": 2
+        },
+        {
+          "mood": "장엄한",
+          "count": 2
+        },
+        {
+          "mood": "진지한",
+          "count": 2
+        }
+      ],
+      "western_key": "Eb / Cm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0842_창작국악_창작국악_가야금.wav",
+      "tags": {
+        "instrumentMajor": "가야금",
+        "instrumentSub": "가야금"
+      }
+    },
+    {
+      "file_name": "0842_창작국악_창작국악_거문고.wav",
+      "tags": {
+        "instrumentMajor": "거문고",
+        "instrumentSub": "거문고"
+      }
+    },
+    {
+      "file_name": "0842_창작국악_창작국악_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0842_창작국악_창작국악_북.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "북"
+      }
+    },
+    {
+      "file_name": "0842_창작국악_창작국악_소금.wav",
+      "tags": {
+        "instrumentMajor": "기타",
+        "instrumentSub": "소금"
+      }
+    },
+    {
+      "file_name": "0842_창작국악_창작국악_아쟁.wav",
+      "tags": {
+        "instrumentMajor": "아쟁",
+        "instrumentSub": "아쟁"
+      }
+    },
+    {
+      "file_name": "0842_창작국악_창작국악_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    },
+    {
+      "file_name": "0842_창작국악_창작국악_피리.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리"
+      }
+    },
+    {
+      "file_name": "0842_창작국악_창작국악_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    },
+    {
+      "file_name": "0842_창작국악_창작국악_해금2.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    }
+  ]
+}

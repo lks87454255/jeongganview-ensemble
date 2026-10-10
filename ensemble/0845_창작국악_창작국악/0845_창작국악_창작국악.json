@@ -1,0 +1,132 @@
+{
+  "project_name": "0845_창작국악_창작국악",
+  "_source": "메타데이터.csv",
+  "master": {
+    "file_name": "0845_창작국악_창작국악.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "창작국악",
+      "genreSub": "창작국악",
+      "genreDetail": "창작국악",
+      "title": "바라지 4",
+      "tempoBpm": 60,
+      "timeSignature": "3/4",
+      "recordDate": "2025-09-15",
+      "moods": [
+        {
+          "mood": "긴장감 넘치는",
+          "count": 2
+        },
+        {
+          "mood": "여유로운",
+          "count": 2
+        },
+        {
+          "mood": "웅대한",
+          "count": 2
+        },
+        {
+          "mood": "장엄한",
+          "count": 4
+        },
+        {
+          "mood": "진지한",
+          "count": 3
+        },
+        {
+          "mood": "표현적인",
+          "count": 2
+        }
+      ],
+      "western_key": "Eb / Cm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0845_창작국악_창작국악_가야금.wav",
+      "tags": {
+        "instrumentMajor": "가야금",
+        "instrumentSub": "가야금"
+      }
+    },
+    {
+      "file_name": "0845_창작국악_창작국악_거문고.wav",
+      "tags": {
+        "instrumentMajor": "거문고",
+        "instrumentSub": "거문고"
+      }
+    },
+    {
+      "file_name": "0845_창작국악_창작국악_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0845_창작국악_창작국악_대금2.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금2"
+      }
+    },
+    {
+      "file_name": "0845_창작국악_창작국악_북.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "북"
+      }
+    },
+    {
+      "file_name": "0845_창작국악_창작국악_소금.wav",
+      "tags": {
+        "instrumentMajor": "기타",
+        "instrumentSub": "소금"
+      }
+    },
+    {
+      "file_name": "0845_창작국악_창작국악_아쟁.wav",
+      "tags": {
+        "instrumentMajor": "아쟁",
+        "instrumentSub": "아쟁"
+      }
+    },
+    {
+      "file_name": "0845_창작국악_창작국악_아쟁2.wav",
+      "tags": {
+        "instrumentMajor": "아쟁",
+        "instrumentSub": "아쟁2"
+      }
+    },
+    {
+      "file_name": "0845_창작국악_창작국악_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    },
+    {
+      "file_name": "0845_창작국악_창작국악_피리.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리"
+      }
+    },
+    {
+      "file_name": "0845_창작국악_창작국악_피리2.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리2"
+      }
+    },
+    {
+      "file_name": "0845_창작국악_창작국악_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    }
+  ]
+}
