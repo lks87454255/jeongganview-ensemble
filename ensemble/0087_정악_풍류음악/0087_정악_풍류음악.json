@@ -1,0 +1,89 @@
+{
+  "project_name": "0087_정악_풍류음악",
+  "master": {
+    "file_name": "0087_정악_풍류음악.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "정악",
+      "genreSub": "풍류음악",
+      "genreDetail": "가곡,가사,시조",
+      "title": "계면조 두거(임술지 추칠월 긔망에)",
+      "tempoBpm": 140,
+      "timeSignature": "48/8",
+      "recordDate": "2025-08-13",
+      "moods": [
+        {
+          "mood": "감상적인",
+          "count": 2
+        },
+        {
+          "mood": "기품 있는",
+          "count": 2
+        },
+        {
+          "mood": "생기 있는",
+          "count": 2
+        },
+        {
+          "mood": "여유로운",
+          "count": 4
+        },
+        {
+          "mood": "차분한",
+          "count": 2
+        },
+        {
+          "mood": "평화로운",
+          "count": 3
+        }
+      ],
+      "western_key": "Gb / Ebm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0087_정악_풍류음악_가야금.wav",
+      "tags": {
+        "instrumentMajor": "가야금",
+        "instrumentSub": "가야금"
+      }
+    },
+    {
+      "file_name": "0087_정악_풍류음악_거문고.wav",
+      "tags": {
+        "instrumentMajor": "거문고",
+        "instrumentSub": "거문고"
+      }
+    },
+    {
+      "file_name": "0087_정악_풍류음악_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0087_정악_풍류음악_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    },
+    {
+      "file_name": "0087_정악_풍류음악_피리.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리"
+      }
+    },
+    {
+      "file_name": "0087_정악_풍류음악_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    }
+  ]
+}
