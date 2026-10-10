@@ -1,0 +1,86 @@
+{
+  "project_name": "0870_창작국악_창작국악",
+  "_source": "메타데이터.csv",
+  "master": {
+    "file_name": "0870_창작국악_창작국악.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "창작국악",
+      "genreSub": "창작국악",
+      "genreDetail": "창작국악",
+      "title": "아리랑서장 3",
+      "tempoBpm": 200,
+      "timeSignature": "12/8",
+      "recordDate": "2025-09-27",
+      "moods": [
+        {
+          "mood": "기품 있는",
+          "count": 3
+        },
+        {
+          "mood": "단아한",
+          "count": 3
+        },
+        {
+          "mood": "리듬감 있는",
+          "count": 2
+        },
+        {
+          "mood": "아정한",
+          "count": 2
+        },
+        {
+          "mood": "희망적인",
+          "count": 2
+        }
+      ],
+      "western_key": "G / Em"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0870_창작국악_창작국악_가야금.wav",
+      "tags": {
+        "instrumentMajor": "가야금",
+        "instrumentSub": "가야금"
+      }
+    },
+    {
+      "file_name": "0870_창작국악_창작국악_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0870_창작국악_창작국악_아쟁.wav",
+      "tags": {
+        "instrumentMajor": "아쟁",
+        "instrumentSub": "아쟁"
+      }
+    },
+    {
+      "file_name": "0870_창작국악_창작국악_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    },
+    {
+      "file_name": "0870_창작국악_창작국악_피리.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리"
+      }
+    },
+    {
+      "file_name": "0870_창작국악_창작국악_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    }
+  ]
+}
