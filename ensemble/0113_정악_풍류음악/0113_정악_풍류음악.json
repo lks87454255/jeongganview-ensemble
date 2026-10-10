@@ -1,0 +1,75 @@
+{
+  "project_name": "0113_정악_풍류음악",
+  "master": {
+    "file_name": "0113_정악_풍류음악.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "정악",
+      "genreSub": "풍류음악",
+      "genreDetail": "가곡,가사,시조",
+      "title": "휘모리시조 푸른산중하에",
+      "tempoBpm": 100,
+      "timeSignature": "3/8",
+      "recordDate": "2025-08-13",
+      "moods": [
+        {
+          "mood": "기품 있는",
+          "count": 2
+        },
+        {
+          "mood": "명상적인",
+          "count": 2
+        },
+        {
+          "mood": "부드러운",
+          "count": 2
+        },
+        {
+          "mood": "시적인",
+          "count": 2
+        },
+        {
+          "mood": "유려한",
+          "count": 2
+        },
+        {
+          "mood": "평화로운",
+          "count": 2
+        }
+      ],
+      "western_key": "Ab / Fm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0113_정악_풍류음악_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0113_정악_풍류음악_장구.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "장구"
+      }
+    },
+    {
+      "file_name": "0113_정악_풍류음악_피리.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리"
+      }
+    },
+    {
+      "file_name": "0113_정악_풍류음악_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    }
+  ]
+}
