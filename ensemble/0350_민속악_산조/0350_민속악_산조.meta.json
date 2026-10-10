@@ -1,0 +1,82 @@
+{
+  "version": 2,
+  "generated": "2026-10-09T18:01:00Z",
+  "id": "0350_민속악_산조",
+  "title": "박범훈류 피리 산조 중 진양조 2",
+  "work": "박범훈류 피리 산조",
+  "movement": "진양조 2",
+  "performers": "국립국악원",
+  "genreMajor": "민속악",
+  "genreSub": "산조",
+  "genreDetail": "피리 산조",
+  "tempoBpm": 100,
+  "timeSignature": "18/8",
+  "jangdan": "진양조",
+  "jangdanInferred": false,
+  "cycleMs": 10800,
+  "mode": "solo",
+  "leadKey": "piri",
+  "fragment": false,
+  "westernKey": "A / Gbm",
+  "recordDate": "2025-08-26",
+  "moods": [
+    "기품 있는",
+    "비통한",
+    "슬픈",
+    "우울감 있는",
+    "우울한",
+    "절제된",
+    "진지한",
+    "차분한"
+  ],
+  "sampleRate": 48000,
+  "sourceSampleRate": 48000,
+  "channels": 2,
+  "durationMs": 347400,
+  "codec": "aac",
+  "bitrateKbps": 128,
+  "labelUrl": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0350_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0/0350_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0.json",
+  "quality": {
+    "fitted": true,
+    "unitResidualDb": -7.4,
+    "mixResidualDb": -14.2,
+    "maxStemCorr": 0.0,
+    "silentStems": 0
+  },
+  "master": {
+    "fileName": "0350_민속악_산조.m4a",
+    "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0350_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0/0350_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0.m4a",
+    "sizeBytes": 5497557,
+    "sha1": "0d48724adfac02510bbf2ab6e4783ca643bafe71"
+  },
+  "stems": [
+    {
+      "key": "janggu",
+      "name": "장구",
+      "baseName": "장구",
+      "group": "타악",
+      "instrumentMajor": "타악기",
+      "sourceFileName": "0350_민속악_산조_장구.wav",
+      "fileName": "0350_민속악_산조_장구.m4a",
+      "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0350_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0/stems/0350_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0_%EC%9E%A5%EA%B5%AC.m4a",
+      "sizeBytes": 4486836,
+      "sha1": "c00a4c82a6290cb11a33d590fa1cb987e34cc1f7",
+      "defaultGain": 0.865,
+      "pan": 0.0
+    },
+    {
+      "key": "piri",
+      "name": "피리",
+      "baseName": "피리",
+      "group": "관악",
+      "instrumentMajor": "피리",
+      "sourceFileName": "0350_민속악_산조_피리.wav",
+      "fileName": "0350_민속악_산조_피리.m4a",
+      "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0350_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0/stems/0350_%EB%AF%BC%EC%86%8D%EC%95%85_%EC%82%B0%EC%A1%B0_%ED%94%BC%EB%A6%AC.m4a",
+      "sizeBytes": 5490625,
+      "sha1": "659ea567707635d3af3df8ce3fbdaf104830eb30",
+      "defaultGain": 1.0,
+      "pan": 0.0
+    }
+  ]
+}
