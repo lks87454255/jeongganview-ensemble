@@ -1,0 +1,61 @@
+{
+  "project_name": "0828_창작국악_창작국악",
+  "_source": "메타데이터.csv",
+  "master": {
+    "file_name": "0828_창작국악_창작국악.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "창작국악",
+      "genreSub": "창작국악",
+      "genreDetail": "창작국악",
+      "title": "회상",
+      "tempoBpm": 60,
+      "timeSignature": "3/4",
+      "recordDate": "2025-09-27",
+      "moods": [
+        {
+          "mood": "시적인",
+          "count": 2
+        },
+        {
+          "mood": "아정한",
+          "count": 2
+        },
+        {
+          "mood": "우울한",
+          "count": 2
+        },
+        {
+          "mood": "잔잔한",
+          "count": 2
+        }
+      ],
+      "western_key": "Eb / Cm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0828_창작국악_창작국악_가야금.wav",
+      "tags": {
+        "instrumentMajor": "가야금",
+        "instrumentSub": "가야금"
+      }
+    },
+    {
+      "file_name": "0828_창작국악_창작국악_아쟁.wav",
+      "tags": {
+        "instrumentMajor": "아쟁",
+        "instrumentSub": "아쟁"
+      }
+    },
+    {
+      "file_name": "0828_창작국악_창작국악_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    }
+  ]
+}

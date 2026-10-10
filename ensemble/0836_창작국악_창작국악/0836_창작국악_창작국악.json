@@ -1,0 +1,94 @@
+{
+  "project_name": "0836_창작국악_창작국악",
+  "_source": "메타데이터.csv",
+  "master": {
+    "file_name": "0836_창작국악_창작국악.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "창작국악",
+      "genreSub": "창작국악",
+      "genreDetail": "창작국악",
+      "title": "낙양의 봄 2",
+      "tempoBpm": 220,
+      "timeSignature": "12/8",
+      "recordDate": "2025-10-04",
+      "moods": [
+        {
+          "mood": "기품 있는",
+          "count": 2
+        },
+        {
+          "mood": "아정한",
+          "count": 2
+        },
+        {
+          "mood": "우아한",
+          "count": 2
+        },
+        {
+          "mood": "유려한",
+          "count": 3
+        },
+        {
+          "mood": "조화로운",
+          "count": 4
+        },
+        {
+          "mood": "차분한",
+          "count": 2
+        },
+        {
+          "mood": "평화로운",
+          "count": 2
+        }
+      ],
+      "western_key": "Eb / Cm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0836_창작국악_창작국악_가야금.wav",
+      "tags": {
+        "instrumentMajor": "가야금",
+        "instrumentSub": "가야금"
+      }
+    },
+    {
+      "file_name": "0836_창작국악_창작국악_거문고.wav",
+      "tags": {
+        "instrumentMajor": "거문고",
+        "instrumentSub": "거문고"
+      }
+    },
+    {
+      "file_name": "0836_창작국악_창작국악_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0836_창작국악_창작국악_소금.wav",
+      "tags": {
+        "instrumentMajor": "기타",
+        "instrumentSub": "소금"
+      }
+    },
+    {
+      "file_name": "0836_창작국악_창작국악_피리.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리"
+      }
+    },
+    {
+      "file_name": "0836_창작국악_창작국악_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    }
+  ]
+}

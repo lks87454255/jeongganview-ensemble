@@ -1,0 +1,92 @@
+{
+  "version": 2,
+  "generated": "2026-10-09T20:18:41Z",
+  "id": "0828_창작국악_창작국악",
+  "title": "회상",
+  "work": "회상",
+  "movement": null,
+  "performers": "국립국악원",
+  "genreMajor": "창작국악",
+  "genreSub": "창작국악",
+  "genreDetail": "창작국악",
+  "tempoBpm": 60,
+  "timeSignature": "3/4",
+  "jangdan": null,
+  "jangdanInferred": false,
+  "cycleMs": 3000,
+  "mode": "ensemble",
+  "leadKey": null,
+  "fragment": false,
+  "westernKey": "Eb / Cm",
+  "recordDate": "2025-09-27",
+  "moods": [
+    "시적인",
+    "아정한",
+    "우울한",
+    "잔잔한"
+  ],
+  "sampleRate": 48000,
+  "sourceSampleRate": 48000,
+  "channels": 2,
+  "durationMs": 216000,
+  "codec": "aac",
+  "bitrateKbps": 128,
+  "labelUrl": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0828_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/0828_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85.json",
+  "quality": {
+    "fitted": true,
+    "unitResidualDb": -2.0,
+    "mixResidualDb": -33.1,
+    "maxStemCorr": 0.002,
+    "silentStems": 0
+  },
+  "master": {
+    "fileName": "0828_창작국악_창작국악.m4a",
+    "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0828_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/0828_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85.m4a",
+    "sizeBytes": 3399079,
+    "sha1": "d3c458903c2fe9172946aaf3b8d38390148ab704"
+  },
+  "stems": [
+    {
+      "key": "gayageum",
+      "name": "가야금",
+      "baseName": "가야금",
+      "group": "현악",
+      "instrumentMajor": "가야금",
+      "sourceFileName": "0828_창작국악_창작국악_가야금.wav",
+      "fileName": "0828_창작국악_창작국악_가야금.m4a",
+      "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0828_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/stems/0828_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EA%B0%80%EC%95%BC%EA%B8%88.m4a",
+      "sizeBytes": 3283406,
+      "sha1": "775f59385e536e2a7071e30f457bcda136562726",
+      "defaultGain": 0.386,
+      "pan": 0.0
+    },
+    {
+      "key": "ajaeng",
+      "name": "아쟁",
+      "baseName": "아쟁",
+      "group": "현악",
+      "instrumentMajor": "아쟁",
+      "sourceFileName": "0828_창작국악_창작국악_아쟁.wav",
+      "fileName": "0828_창작국악_창작국악_아쟁.m4a",
+      "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0828_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/stems/0828_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%95%84%EC%9F%81.m4a",
+      "sizeBytes": 2482527,
+      "sha1": "e98d3e0c7e092d51e12a16ffc2f9006ad54133d3",
+      "defaultGain": 0.914,
+      "pan": 0.0
+    },
+    {
+      "key": "haegeum",
+      "name": "해금",
+      "baseName": "해금",
+      "group": "현악",
+      "instrumentMajor": "해금",
+      "sourceFileName": "0828_창작국악_창작국악_해금.wav",
+      "fileName": "0828_창작국악_창작국악_해금.m4a",
+      "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-ensemble/main/ensemble/0828_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85/stems/0828_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%EC%B0%BD%EC%9E%91%EA%B5%AD%EC%95%85_%ED%95%B4%EA%B8%88.m4a",
+      "sizeBytes": 3055271,
+      "sha1": "e2fc122ca745ecfa2a7666efe9a3fe8849e2167d",
+      "defaultGain": 1.0,
+      "pan": 0.0
+    }
+  ]
+}
