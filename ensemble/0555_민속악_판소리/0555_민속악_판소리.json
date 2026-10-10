@@ -1,0 +1,81 @@
+{
+  "project_name": "0555_민속악_판소리",
+  "_source": "메타데이터.csv",
+  "master": {
+    "file_name": "0555_민속악_판소리.wav",
+    "tags": {
+      "sampleRate": 48000,
+      "bitDepth": 24,
+      "performers": "국립국악원",
+      "genreMajor": "민속악",
+      "genreSub": "판소리",
+      "genreDetail": "흥보가",
+      "title": "가지마오 가지마오",
+      "tempoBpm": 120,
+      "timeSignature": "18/8",
+      "recordDate": "2025-08-10",
+      "moods": [
+        {
+          "mood": "긴장감 넘치는",
+          "count": 2
+        },
+        {
+          "mood": "표현적인",
+          "count": 2
+        }
+      ],
+      "western_key": "F / Dm"
+    }
+  },
+  "stems": [
+    {
+      "file_name": "0555_민속악_판소리_가야금.wav",
+      "tags": {
+        "instrumentMajor": "가야금",
+        "instrumentSub": "가야금"
+      }
+    },
+    {
+      "file_name": "0555_민속악_판소리_거문고.wav",
+      "tags": {
+        "instrumentMajor": "거문고",
+        "instrumentSub": "거문고"
+      }
+    },
+    {
+      "file_name": "0555_민속악_판소리_대금.wav",
+      "tags": {
+        "instrumentMajor": "대금",
+        "instrumentSub": "대금"
+      }
+    },
+    {
+      "file_name": "0555_민속악_판소리_소리북.wav",
+      "tags": {
+        "instrumentMajor": "타악기",
+        "instrumentSub": "소리북"
+      }
+    },
+    {
+      "file_name": "0555_민속악_판소리_아쟁.wav",
+      "tags": {
+        "instrumentMajor": "아쟁",
+        "instrumentSub": "아쟁"
+      }
+    },
+    {
+      "file_name": "0555_민속악_판소리_피리.wav",
+      "tags": {
+        "instrumentMajor": "피리",
+        "instrumentSub": "피리"
+      }
+    },
+    {
+      "file_name": "0555_민속악_판소리_해금.wav",
+      "tags": {
+        "instrumentMajor": "해금",
+        "instrumentSub": "해금"
+      }
+    }
+  ]
+}
